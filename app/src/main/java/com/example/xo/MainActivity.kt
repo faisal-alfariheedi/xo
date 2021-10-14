@@ -90,6 +90,7 @@ class MainActivity : AppCompatActivity() {
                         if(wincheck()){
                             p1w++
                             tvp1w.text="$p1w"
+
                             gameOver(1)
                         }else{
                             turn = false
